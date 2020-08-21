@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+   
+    laravel-app:
+        build: .
+        container_name: app
+        ports:
+            - "8080:80"
+        volumes:
+            - ./:/usr/share/nginx
+        
+
+
+
+    
